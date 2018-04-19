@@ -5,7 +5,9 @@ Lets make concrete5 (marketplace items) great again!
 
 ## Your theme must:
 - be in the package format and install properly for the minimum version of concrete5 as specified in your package controller.
- 
+
+- be properly coded to html5 standards. Use <https://validator.w3.org/> to confirm your code is clean before submission.
+
 - must contain a portable network graphics file (png) named icon.png in your package root. The size of this icon will be 97 pixels square with 4 pixel rounded corners.
 
 - include a portable network graphics file (png) named thumbnail.png, properly sized to an aspect ration of 4 to 3. Keep this file under 360 pixels wide.  It will currently display only at 120 x 90 pixels so excessive width is unnecessary.
