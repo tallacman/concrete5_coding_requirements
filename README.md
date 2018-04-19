@@ -1,9 +1,9 @@
 # concrete5_coding_requirements
 Lets make concrete5 (marketplace items) great again!
 
-#Themes
+# Themes
 
-##Your theme must:
+## Your theme must:
 - be in the package format and install properly for the minimum version of concrete5 as specified in your package controller.
  
 - must contain a portable network graphics file (png) named icon.png in your package root. The size of this icon will be 97 pixels square with 4 pixel rounded corners.
