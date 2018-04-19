@@ -16,13 +16,13 @@ Lets make concrete5 (marketplace items) great again!
 
 - use snake-case (i.e. "my\_cool\_theme") for naming files and folders. 
  
-- contain <?php View::element('header\_required'); ?> anywhere in the head of your theme and <?php View::element('footer\_required'); ?> directly before the </body> tag.
+- contain `<?php View::element('header\_required'); ?>` anywhere in the head of your theme and `<?php View::element('footer\_required'); ?>` directly before the </body> tag.
 
 - not change the concrete5 core styling.
  
-- have a default.php and view.php. Your view needs to contain this code <?php  print $innerContent; ?> .
+- have a default.php and view.php. Your view needs to contain this code `<?php  print $innerContent; ?>` .
 
-- contain a div with the class <?php echo $c->getPageWrapperClass()?> directly after the opening body tag.
+- contain a div with the class `<?php echo $c->getPageWrapperClass()?>` directly after the opening body tag.
   
 - comply with all licensing requirements. Include the copyright and licensing information for all js and applicable css files.
 
